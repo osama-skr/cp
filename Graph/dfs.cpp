@@ -1,3 +1,5 @@
+vector<vector<int>> adj[N];
+bool visited[N];
 void dfs(int s) {
   if (visited[s]) return;
   visited[s] = true;
