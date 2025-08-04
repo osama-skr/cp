@@ -1,3 +1,4 @@
+//o(m)
 int n;
 vector<vector<int>> adj;
 vector<char> color;
