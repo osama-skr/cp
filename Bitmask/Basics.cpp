@@ -13,6 +13,9 @@ maskA | maskB;
 //(intersection)
 maskA & maskB;
 
+//removes the rightmost 1
+mask &= mask - 1;
+
 // number of set bits
 __builtin_popcount(mask);           // int
 __builtin_popcountll(mask);         // long long
