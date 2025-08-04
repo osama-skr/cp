@@ -21,6 +21,6 @@ __builtin_popcountll(mask);         // long long
 __builtin_ctz(mask);                // int
 __builtin_ctzll(mask);              // long long
 
-// returns idx for first one from left (0-indexed)
-31 - __builtin_clz(mask);           // int
+// returns idx for first one from left (0-indexed)(if no mins = num of leading 0s)
+31 - __builtin_clz(mask);            // int
 63 - __builtin_clzll(mask);         // long long
