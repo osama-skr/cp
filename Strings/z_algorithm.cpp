@@ -1,3 +1,4 @@
+//find all occurrences of a pattern inside a text in O(n)
 //##################################################
 
 #include <bits/stdc++.h>

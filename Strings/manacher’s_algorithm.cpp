@@ -1,3 +1,5 @@
+//For Longest Palindromic Substring in O(n)
+
 string preprocess(const string &s) {
     string t = "#";
     for (char c : s) {
